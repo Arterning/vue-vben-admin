@@ -71,6 +71,9 @@
       },
       "ellipsis": {
         "title": "文本省略"
+      },
+      "layout": {
+        "title":"布局练习"
       }
     }
   }

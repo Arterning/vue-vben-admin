@@ -39,6 +39,14 @@ const routes: RouteRecordRaw[] = [
           title: $t('page.examples.ellipsis.title'),
         },
       },
+      {
+        name: 'LayoutExample',
+        path: '/examples/layout',
+        component: () => import('#/views/examples/layout/index.vue'),
+        meta: {
+          title: $t('page.examples.layout.title'),
+        },
+      },
     ],
   },
 ];
