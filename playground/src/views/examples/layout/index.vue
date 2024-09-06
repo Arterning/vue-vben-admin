@@ -78,5 +78,45 @@ const text = ref(longText);
       <div class="rounded-md border p-4 shadow-md">第二行第二列</div>
       <div class="rounded-md border p-4 shadow-md">第二行第三列</div>
     </div>
+
+    <div className="">
+      <div className="container h-full mx-auto xl:px-30 max-w-6xl">
+        <div className="grid grid-cols-4 h-full gap-3">
+          <div className="border rounded-xl col-span-1 h-full p-4 md:pr-6">
+            <div className="flex flex-col items-end">
+              <div className="space-y-2 lg:w-[230px]">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            className="
+              border
+              rounded-xl
+              col-span-3 
+              lg:col-span-2 
+              border-x-[1px] 
+              border-neutral-800"
+          ></div>
+
+          <div className="px-6 py-4 hidden lg:block">
+            <div className="border rounded-xl p-4">
+              <h2 className="text-white text-xl font-semibold">
+                Who to follow
+              </h2>
+              <div className="flex flex-col gap-6 mt-4">
+                <div className="flex flex-col">
+                  <p className="text-white font-semibold text-sm">Hello</p>
+                  <p className="text-neutral-400 text-sm">World</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </Page>
 </template>
